@@ -1,0 +1,8 @@
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+p,
+pre {
+  margin: 0;
+}

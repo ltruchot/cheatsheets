@@ -1,0 +1,24 @@
+{
+  "name": "cheatsheets",
+  "version": "1.0.0",
+  "description": "All my programming language cheatsheets\r toto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltruchot/cheatsheets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ltruchot/cheatsheets/issues"
+  },
+  "homepage": "https://github.com/ltruchot/cheatsheets#readme",
+  "dependencies": {
+    "highlight.js": "^10.1.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}

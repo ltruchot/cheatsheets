@@ -4,9 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toto</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/highlight.js/styles/rainbow.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <img src="chiot-obeir-bande-fb-5b2cca71a9ee0.jpg" />
     <h1>Copion HTML</h1>
+
+    <!-- entete -->
+    <header>
+      <p>
+        HTML est un <strong>langage des balises</strong>. Il permet de faire des
+        sites web, qu'on ouvre dans un navigateur comme chrome ou firefox.
+        <br />
+        Le HTML est le <strong>squelette de la page</strong>, alors que le CSS
+        est l'habillage, et le JavaScript est le dynamisme.
+      </p>
+    </header>
+    <hr />
+
+    <!-- introduction -->
+    <section>
+      <p>
+        En HTML, chaque élément de la page web visible est codé grâce à des
+        balises, qui délimitent le début et la fin de l'élement:
+      </p>
+      <pre>
+          <code>
+<!-- une division contenant une phrase-->
+<div class="toto">Hello world!</div>
+          </code>
+      </pre>
+      <p>
+        Chacune de ces balises est fortement <strong>sémantique</strong>, elle
+        permet d'explique le rôle d'un élément.
+      </p>
+      <pre>
+        <code>
+<!-- le titre pricipal -->
+<h1>Hello world!</h1>
+<!-- un article -->
+<article>Aujourd'hui il fait beau</article>
+<!-- un pied de page -->
+<footer>mentions légales</footer>
+        </code>
+    </pre>
+      <p>
+        On peut voir la page HTML comme un grand arbre de balises imbriquées les
+        unes dans les autres. Ou comme un jeu de légo, où plusieurs pièces
+        identiques et/ou différentes s'encastrent les unes dans les autres.
+        <br />
+        C'est une <strong>composition</strong> de balise, très
+        <strong>déclarative</strong>.
+      </p>
+    </section>
+
+    <pre>
+        <code>
+<header></header>
+<main></main>
+<footer></footer>
+        </code>
+    </pre>
+    <ul>
+      <li>toto</li>
+      <li style="display: flex; align-items: center;">
+        <pre><code><p></p></code></pre>
+      </li>
+    </ul>
+
     <header>
       HTML est un langage de balises.... bla bla bla blab.... que permet de
       faire des sites web
@@ -34,5 +104,7 @@
         </ul>
       </section>
     </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
